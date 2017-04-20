@@ -16,7 +16,7 @@ export interface VehicleModel {
     seat: string;
     effluent_standard?: string;
     pl?: string;
-    driven_type: string;
+    driven_type?: string;
 }
 export interface Vehicle {
     id: string;
