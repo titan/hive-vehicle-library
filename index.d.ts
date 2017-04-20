@@ -9,7 +9,7 @@ export interface VehicleModel {
     engine_desc: string;
     gearbox_name: string;
     year_pattern: string;
-    group_name: string;
+    group_name?: string;
     cfg_level: string;
     purchase_price: string;
     purchase_price_tax: string;
@@ -31,5 +31,5 @@ export interface Vehicle {
     last_insurance_company: string;
     insurance_due_date: Date;
     accident_status: number;
-    ncd: Map<[Date, Date], number>;
+    ncd?: Map<[Date, Date], number>;
 }
