@@ -14,8 +14,8 @@ export interface VehicleModel {
   purchase_price: string;
   purchase_price_tax: string;
   seat: string;
-  effluent_standard: string;
-  pl: string;
+  effluent_standard?: string;
+  pl?: string;
   driven_type: string;
 };
 
