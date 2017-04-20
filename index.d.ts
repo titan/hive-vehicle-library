@@ -5,7 +5,7 @@ export interface VehicleModel {
     vehicle_name: string;
     brand_name: string;
     family_name: string;
-    body_type: string;
+    body_type?: string;
     engine_desc: string;
     gearbox_name: string;
     year_pattern: string;
@@ -24,7 +24,7 @@ export interface Vehicle {
     license_no: string;
     engine_no: string;
     register_date: Date;
-    model: VehicleModel;
+    model?: VehicleModel;
     is_transfer: boolean;
     receipt_no: string;
     receipt_date: Date;
