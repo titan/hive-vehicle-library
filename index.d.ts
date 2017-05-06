@@ -24,7 +24,7 @@ export interface Vehicle {
     license_no?: string;
     engine_no?: string;
     register_date?: Date;
-    model: VehicleModel;
+    model?: VehicleModel;
     is_transfer?: boolean;
     receipt_no?: string;
     receipt_date?: Date;
